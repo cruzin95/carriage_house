@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carriage House Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.2s;
+            color: white;
+            font-weight: bold;
+        }
+        a:hover {
+            transform: scale(1.05);
+        }
+        .contract-btn {
+            background-color: #667eea;
+        }
+        .quote-btn {
+            background-color: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Carriage House Tools</h1>
+        <p>Select a tool to get started:</p>
+        <div class="button-group">
+            <a href="170_Eldridge_Contract_Generator.html" class="contract-btn">Contract Generator</a>
+            <a href="quote-builder.html" class="quote-btn">Quote Builder</a>
+        </div>
+    </div>
+</body>
+</html>
